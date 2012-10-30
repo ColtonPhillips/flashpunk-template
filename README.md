@@ -1,4 +1,4 @@
 flashpunk-template
 ==================
 
-Boilerplate Flashpunk code to get you started.
+Boilerplate FlashPunk code to get you started.

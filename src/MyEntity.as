@@ -7,14 +7,9 @@ package
 
 	public class MyEntity extends Entity
 	{
-		[Embed(source = 'res/player.png')] private const PLAYER:Class;
+		[Embed(source = 'assets/player.png')] private const PLAYER:Class;
 		public function MyEntity()
 		{
-			Input.define("Left", 	Key.LEFT, 	Key.A);
-			Input.define("Right", 	Key.RIGHT, 	Key.D);
-			Input.define("Up", 		Key.UP, 	Key.W);
-			Input.define("Down", 	Key.DOWN, 	Key.S);
-			
 			graphic = new Image(PLAYER);
 		}
 

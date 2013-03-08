@@ -23,6 +23,7 @@ package
 		{
 			FP.console.enable();
 			FP.console.log("Flashpunk initialized");
+			// a dumb little comment
 		}
 	}
 }
